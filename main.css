@@ -68,7 +68,7 @@ nav ul li a:hover {
 
 #content {
 	margin: 20px auto;
-	width: 850px;
+	width: 880px;
 }
 
 .logo {
@@ -77,14 +77,19 @@ nav ul li a:hover {
 }
 
 #headline {
-	text-align: center;
-	font-size: 27px;
-	line-height: 55px;
-	font-weight: normal;
-	font-family: 'Crimson Text', serif;
+	height: 180px;
 }
 
-.description {
+.main-headline {
+	font-size: 28px;
+	line-height: 55px;
+	text-align: center;
+	font-weight: normal;
+	font-family: 'Crimson Text', serif;
+
+}
+
+.main-description {
 	text-align: center;
 	margin: 10px 0;
 	font-size: 20px;
@@ -92,12 +97,64 @@ nav ul li a:hover {
 	font-family: 'Crimson Text', serif;
 }
 
+/* CSS FOR HEADLINE CONTENT ON HOVER */
+
+.hover-headline {
+	font-size: 24px;
+	line-height: 45px;
+	text-align: center;
+	font-weight: normal;
+	font-family: 'Crimson Text', serif;
+	display: none;
+
+}
+
+.hover-description {
+	text-align: center;
+	margin: 10px 0;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.arrow {
+	display: block;
+	width: 69px;
+	height: 69px;
+}
+
+#basecamp .arrow {
+	position: relative;
+	left: 265px;
+}
+
+#highrise .arrow {
+	position: relative;
+	left: 485px;
+}
+
+#campfire .arrow {
+	position: relative;
+	left: 550px;
+}
+
+
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+
 /* BOXES */
 
 
 
 .cols-grid {
-	padding-left: 95px;
+	padding-left: 105px;
 }
 
 .cols-grid > div {
@@ -130,6 +187,7 @@ nav ul li a:hover {
 }
 .product-name {
 	text-decoration: underline;
+	color: #369;
 }
 
 sup {
