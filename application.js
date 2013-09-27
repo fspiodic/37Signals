@@ -6,19 +6,24 @@ $(document).ready(function() {
 
 	$( "div .bg-gradient--gray:first").mouseenter(function() {
 	 	$("#basecamp").addClass("show");
-	 	$(".main-headline").addClass("hide")
+	 	$(".main-headline").addClass("hide");
+
+	 
 	 });
 
 	 	$( "div .bg-gradient--gray:first").mouseleave(function() {
 	 	$("#basecamp").removeClass("show");
 	 	$(".main-headline").removeClass("hide");
+
+
 	 });
 
 //second box hover	
 
 	 $( "div .bg-gradient--gray:nth-child(2)").mouseenter(function() {
 	 	$("#highrise").addClass("show");
-	 	$(".main-headline").addClass("hide")
+	 	$(".main-headline").addClass("hide");
+
 	 });
 
 	 	 $( "div .bg-gradient--gray:nth-child(2)").mouseleave(function() {
