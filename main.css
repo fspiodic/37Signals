@@ -68,11 +68,7 @@ nav ul li a:hover {
 
 #content {
 	margin: 20px auto;
-<<<<<<< HEAD
-	width: 850px;
-=======
 	width: 880px;
->>>>>>> gh-pages
 }
 
 .logo {
@@ -81,16 +77,6 @@ nav ul li a:hover {
 }
 
 #headline {
-<<<<<<< HEAD
-	text-align: center;
-	font-size: 27px;
-	line-height: 55px;
-	font-weight: normal;
-	font-family: 'Crimson Text', serif;
-}
-
-.description {
-=======
 	height: 180px;
 }
 
@@ -104,7 +90,6 @@ nav ul li a:hover {
 }
 
 .main-description {
->>>>>>> gh-pages
 	text-align: center;
 	margin: 10px 0;
 	font-size: 20px;
@@ -112,8 +97,6 @@ nav ul li a:hover {
 	font-family: 'Crimson Text', serif;
 }
 
-<<<<<<< HEAD
-=======
 /* CSS FOR HEADLINE CONTENT ON HOVER */
 
 .hover-headline {
@@ -122,6 +105,7 @@ nav ul li a:hover {
 	text-align: center;
 	font-weight: normal;
 	font-family: 'Crimson Text', serif;
+	cursor: pointer;
 	display: none;
 
 }
@@ -131,6 +115,7 @@ nav ul li a:hover {
 	margin: 10px 0;
 	font-size: 16px;
 	line-height: 24px;
+	cursor: pointer;
 	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
@@ -138,6 +123,7 @@ nav ul li a:hover {
 	display: block;
 	width: 69px;
 	height: 69px;
+	cursor: pointer;
 }
 
 #basecamp .arrow {
@@ -166,17 +152,12 @@ nav ul li a:hover {
 }
 
 
->>>>>>> gh-pages
 /* BOXES */
 
 
 
 .cols-grid {
-<<<<<<< HEAD
-	padding-left: 95px;
-=======
 	padding-left: 105px;
->>>>>>> gh-pages
 }
 
 .cols-grid > div {
@@ -190,7 +171,7 @@ nav ul li a:hover {
 	text-align: center;
 
 	float: left;
-	
+
 	border: 0.5px solid #ccc;
 	border-radius: 5px;
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
@@ -209,10 +190,7 @@ nav ul li a:hover {
 }
 .product-name {
 	text-decoration: underline;
-<<<<<<< HEAD
-=======
 	color: #369;
->>>>>>> gh-pages
 }
 
 sup {
@@ -263,5 +241,3 @@ sup {
   display: table;
   clear: both;
 }
-
-

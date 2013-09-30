@@ -4,14 +4,14 @@ $(document).ready(function() {
 
 //forst box hover
 
-	$( "div .bg-gradient--gray:first").mouseenter(function() {
+	$( "div .bg-gradient--gray:first, #basecamp").mouseover(function() {
 	 	$("#basecamp").addClass("show");
 	 	$(".main-headline").addClass("hide");
 
 	 
 	 });
 
-	 	$( "div .bg-gradient--gray:first").mouseleave(function() {
+	 	$( "div .bg-gradient--gray:first, #basecamp").mouseout(function() {
 	 	$("#basecamp").removeClass("show");
 	 	$(".main-headline").removeClass("hide");
 
@@ -20,25 +20,25 @@ $(document).ready(function() {
 
 //second box hover	
 
-	 $( "div .bg-gradient--gray:nth-child(2)").mouseenter(function() {
+	 $( "div .bg-gradient--gray:nth-child(2), #highrise").mouseover(function() {
 	 	$("#highrise").addClass("show");
 	 	$(".main-headline").addClass("hide");
 
 	 });
 
-	 	 $( "div .bg-gradient--gray:nth-child(2)").mouseleave(function() {
+	 	 $( "div .bg-gradient--gray:nth-child(2), #highrise").mouseout(function() {
 	 	$("#highrise").removeClass("show");
 	 	$(".main-headline").removeClass("hide");
 	 });
 
 //third box hover	
 
-	 $( "div .bg-gradient--gray:last").mouseenter(function() {
+	 $( "div .bg-gradient--gray:last, #campfire").mouseover(function() {
 	 	$("#campfire").addClass("show");
 	 	$(".main-headline").addClass("hide")
 	 });
 
-	 	 $( "div .bg-gradient--gray:last").mouseleave(function() {
+	 	 $( "div .bg-gradient--gray:last, #campfire").mouselout(function() {
 	 	$("#campfire").removeClass("show");
 	 	$(".main-headline").removeClass("hide");
 	 });
