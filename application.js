@@ -38,7 +38,7 @@ $(document).ready(function() {
 	 	$(".main-headline").addClass("hide")
 	 });
 
-	 	 $( "div .bg-gradient--gray:last, #campfire").mouselout(function() {
+	 	 $( "div .bg-gradient--gray:last, #campfire").mouseout(function() {
 	 	$("#campfire").removeClass("show");
 	 	$(".main-headline").removeClass("hide");
 	 });
